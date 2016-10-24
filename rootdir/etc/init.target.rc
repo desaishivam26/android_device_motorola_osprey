@@ -72,6 +72,10 @@ service akmd09912 /system/bin/akmd09912
     user compass
     group compass misc input
 
+# Create directory from IMS services
+    mkdir /data/shared 0755
+    chown system system /data/shared
+
 on property:sys.boot_completed=1
     setprop sys.io.scheduler bfq
 
