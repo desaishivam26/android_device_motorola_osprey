@@ -39,3 +39,5 @@ persist.ims.disableADBLogs=2
 persist.ims.disableDebugLogs=0
 persist.ims.disableQXDMLogs=0
 persist.ims.disableIMSLogs=0
+net.lte.volte_call_capable=true
+persist.ims.enabler.enabled=true
